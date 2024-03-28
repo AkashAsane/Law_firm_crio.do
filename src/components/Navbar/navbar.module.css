@@ -1,0 +1,44 @@
+.navbar{
+    height: 74px;
+    background-color:rgba(17, 17, 17, 1);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display:  flex;
+    height: 34px;
+    width: 67px;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.txt{
+    margin-left: 15px;
+    font-family: poppins;
+    font-size: 18px;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.button{
+    display: flex;
+    color: white;
+    font-size: 10px;
+    margin-right: 15px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color:rgba(17, 17, 17, 1);
+}

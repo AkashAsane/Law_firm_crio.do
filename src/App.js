@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { StyledEngineProvider } from "@mui/material";
+import styles from "./App.module.css"
+import Navbar from "./components/Navbar/navbar";
+import Bodytext from "./components/poster/poster";
+import Section from "./components/section/section";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledEngineProvider injectFirst>
+    
+      <div className={styles.container}>
+        <Navbar/>
+        <Bodytext/>
+      </div>
+      <Section/>
+   
+    
+    </StyledEngineProvider>
   );
 }
 
