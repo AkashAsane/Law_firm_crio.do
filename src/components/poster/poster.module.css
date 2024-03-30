@@ -47,3 +47,41 @@
     width: 500px;
     background-color:rgba(17, 17, 17, 1);
 }
+
+.bodybutton{
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.bodytalk{
+    width: 130px;
+    height: 60px;
+    background-color: rgba(227, 183, 72, 1);
+    border-radius: 30px;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.inputtext{
+    position: absolute;
+    top:25px;
+    left: 60px;
+    border: none;
+
+}
+
+.email{
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+.back{
+    position: absolute;
+    left: 600px;
+    
+}

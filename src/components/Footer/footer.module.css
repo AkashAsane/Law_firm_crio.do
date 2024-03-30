@@ -1,0 +1,48 @@
+.footerwrapper{
+   
+    height: 360px;
+    width: 100%;
+    background-color:  rgba(23, 23, 23, 1);
+    position: relative;
+     
+}
+
+.footerlink{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+    
+    
+    
+}
+
+.footertxt{
+    margin-right: 10px;
+}
+
+.footerblock{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    border: none;
+    
+}
+
+.footeravg{
+    cursor: pointer;
+}
+
+.footerdiv{
+    position: absolute;
+    width:450 px;
+    display: flex;
+    left: 550px;
+    color: aliceblue;
+    border: none;
+}
+
+.footername{
+    margin-right: 10px;
+    background-color:  rgba(23, 23, 23, 1);
+}

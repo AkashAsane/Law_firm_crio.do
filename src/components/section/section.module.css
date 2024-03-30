@@ -200,3 +200,318 @@
   left: 300px;
   top: 210px;
 }
+
+.clients{
+  /* border: 2px solid white; */
+  width: 1130px;
+  height: 626px;
+  margin-top: 100px;
+}
+
+.clientscardwrapper{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+  margin-top: 190px;
+  
+  
+}
+
+.clientscard1{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 300px;
+  width: 310px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.clientscard1:hover{
+  filter: brightness(1.5);
+}
+.clientscard2:hover{
+  filter: brightness(1.5);
+}
+.clientscard3:hover{
+  filter: brightness(1.5);
+}
+
+.clientscard2{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 300px;
+  width: 310px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.clientscard3{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 300px;
+  width: 310px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.clientscard1  img{
+   margin-left: 10px;
+   margin-top: 20px;
+   width: 105px;
+   height: 102px;
+   object-fit: cover;
+}
+
+.clientscard2  img{
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 105px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.clientscard3  img{
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 105px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.client1body{
+  margin-left: 10px;
+  margin-top: 10px;
+ 
+}
+
+.client1body h3{
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.client1body h5{
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.client1body p{
+  color: white;
+  font-family: "Inter", sans-serif;
+  opacity: 30%;
+  font-weight: 500px;
+  font-size: 14px;
+}
+
+.clienthead{
+  color: white;
+  font-size: 50px;
+  height: 10px;
+  width: 350px;
+  font-family: "Inter", sans-serif;
+  margin-left: 30px ;
+  font-weight: 600px;
+  line-height: 77px;
+
+}
+
+.clientwrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.clientnav{
+  margin-top: 70px;
+  height: 20px;
+  margin-right: 25px;
+ 
+}
+
+.clientnav img{
+   padding: 5px;
+   width: 70px;
+   cursor: pointer;
+}
+
+/* ___________________team css___________________ */
+
+.team {
+  width: 1050px;
+  height: 340px;
+  /* border: 2px solid greenyellow; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 10px; 
+  margin-top: 150px;
+}
+
+.team1{
+  border: 2px solid gray;
+  width: 300px;
+  height: 105px;
+  position: relative;
+  color: white;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+
+.team1 img{
+  width: 68px;
+  height: 68px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 18px;
+  
+}
+
+.team1 h3{
+     font-size: 20px;
+     margin-bottom: 10px;
+}
+
+.team1 h6{
+  font-size: 14px;
+  opacity: 30%;
+ 
+}
+
+
+
+
+.teamtitle{
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-top: 150px;
+}
+
+
+.teaminfo{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  
+}
+
+/* ____________faq section_______________ */
+
+.faq{
+  width: 1140px;
+  height: 700px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+.faqinfo{
+
+  width: 500px;
+  margin-right: 150px;
+
+}
+
+.faqinfo h1 {
+  font-size: 54px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.faqinfo p {
+  color: white;
+  opacity: 30%;
+  font-family: "Inter", sans-serif;
+  margin-left: 50px;
+ 
+}
+
+.accordion{
+   margin-top: 60px;
+   width: 800px;
+}
+
+.accordion1{
+  background-color: rgba(29, 29, 29, 1);
+  font-family: "Inter", sans-serif;
+  
+}
+.accordion1title{
+  color: white;
+  
+}
+
+.accordion1info{
+     color: white;
+     opacity: 30%;
+     font-size: 15px;
+}
+
+/* ______________newssettler css____________ */
+
+.newswrapper{
+
+  /* background-color:  rgba(71, 71, 71, 0.5); */
+  width: 1200px;
+  height: 400px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.newsinput{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 690px;
+  height: 60px;
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  /* background-color:  rgba(71, 71, 71, 0.5); */
+  
+}
+
+.form1{
+  height: 53px;
+  width: 276px;
+  margin-right: 10px;
+  background-color:rgba(228, 228, 228, 1);
+  border-radius: 10px 0 0 10px;
+  
+}
+
+.form2{
+  height: 53px;
+  width: 276px;
+  background-color:rgba(228, 228, 228, 1);
+  margin-right: 10px;
+}
+
+.form3{
+  height: 60px;
+  width: 116px;
+  background-color: rgba(227, 183, 72, 1);
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+
+.newstitle {
+  position: absolute;
+  font-size: 55px; 
+  font-family: "Inter", sans-serif;
+  color: white;
+  left:250px;
+  top:70px;
+  /* background-color: rgba(71, 71, 71, 0.5);  */
+  
+}
